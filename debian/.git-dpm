@@ -6,3 +6,6 @@ e0de133ab4fadb754eeb979c36f5be8828e1ccd2
 runoverssh_2.0.orig.tar.gz
 50f50b42971a3654399ab229221c75b45b3dc089
 3445
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"

@@ -1,0 +1,28 @@
+Source: runoverssh
+Section: admin
+Priority: optional
+Maintainer: YuLun Shih <shih@yulun.me>
+Uploaders: SZ Lin (林上智) <szlin@debian.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.0.0
+Homepage: https://github.com/yuriescl/runoverssh
+Vcs-Git: https://anonscm.debian.org/collab-maint/runoverssh.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/runoverssh.git
+
+Package: runoverssh
+Architecture: all
+Depends: ${misc:Depends}, bash (>= 4), ssh
+Description: Run commands over ssh in one or more hosts
+ This program runs a Bash command/script over ssh in one or more hosts
+ Feature
+ .
+  - ask one global password for all connections
+  - read commands from a script file instead
+  - use the list of hosts from a file
+  - use ssh directly instead of sshpass
+  - save ssh output
+  - disable ssh screen output
+  - set custom ssh flags
+  - set custom bash flags
+  - save ssh output to a custom file
+ .

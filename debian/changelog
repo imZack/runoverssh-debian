@@ -1,0 +1,5 @@
+runoverssh (2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #861412)
+
+ -- YuLun Shih <shih@yulun.me>  Thu, 27 Jul 2017 10:02:58 +0800
