@@ -2,8 +2,6 @@
 
 This program runs a Bash command/script over ssh in one or more hosts.
 
-Bugs or Requests: yuriescl@gmail.com
-
 #### Usage:
 ```
 $ runoverssh [OPTIONS] USERNAME COMMAND HOSTS...
@@ -12,8 +10,9 @@ $ runoverssh [OPTIONS] USERNAME COMMAND HOSTS...
 #### Default behavior:
 
 * Ask each `username@host` password at the start
-* SSH connections use the flags `-o ConnectTimeout=5 -o StrictHostKeyChecking=no`
-* Print all SSH output in the screen
+* SSH flags `-o ConnectTimeout=5 -o StrictHostKeyChecking=no`
+* Bash flags `-l`
+* Prints all SSH output in the screen
 
 #### Options:
 ```
