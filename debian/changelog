@@ -1,3 +1,9 @@
+runoverssh (2.2-1) unstable; urgency=medium
+
+  * Update from upstream.
+
+ -- YuLun Shih <zack@yulun.me>  Sun, 24 Sep 2017 16:42:00 +0800
+
 runoverssh (2.1-1) unstable; urgency=medium
 
   * Import new upstream version
