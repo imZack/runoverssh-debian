@@ -1,8 +1,12 @@
 runoverssh (2.2-1) unstable; urgency=medium
 
+  [ YuLun Shih ]
   * Update from upstream.
 
- -- YuLun Shih <shih@yulun.me>  Sun, 24 Sep 2017 16:42:00 +0800
+  [ SZ Lin (林上智) ]
+  * Bump Standard-version to 4.1.1
+
+ -- SZ Lin (林上智) <szlin@debian.org>  Wed, 25 Oct 2017 18:01:54 +0800
 
 runoverssh (2.1-1) unstable; urgency=medium
 
